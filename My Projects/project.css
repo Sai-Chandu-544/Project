@@ -1,0 +1,150 @@
+
+.container{
+    margin:50px auto;
+    height:600px;
+    width:80vw;
+    background-color: rgb(255, 179, 102);
+    box-shadow: 8px 8px 12px #555;
+    padding-top: 20px;
+    border-radius: 20px;
+    
+}
+.container H1{
+    color:rgb(0, 32, 128);
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.sub_container{
+    display: flex;
+    margin: 20px auto;
+    height:350px;
+    width: 65vw;
+    background-color: rgb(255, 179, 102);
+    padding:20px 0px 0px 10px;
+    display: flex;
+    
+    
+}
+.project1{
+    height:150px;
+    width:300px;
+    background-color: #E23744;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 10px #555;
+    transition:1s;
+}
+
+.project1:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+.project1 img{
+    height:100px;
+    width:300px;
+
+}
+@media (min-width:350px) and (max-width:1100px){
+    .main{
+        height:100vh;
+        width:100%;
+        justify-content: center;
+    }
+    .container1{
+        margin:50px auto;
+        height:500px;
+        width:80vw;
+        background-color: rgb(255, 179, 102);
+        box-shadow: 8px 8px 12px #555;
+        padding-top: 20px;
+        border-radius: 20px;
+    }
+    .container1 H1{
+        color:rgb(0, 32, 128);
+        text-align: center;
+        text-decoration: underline;
+        
+    }
+    H1{
+        font-size: 20px;
+    }
+    .subcontainer{
+        margin: 20px auto;
+        height:350px;
+        width: 65vw;
+        background-color: rgb(255, 179, 102);
+        padding:20px 0px 0px 10px;
+        
+    }
+    .project1{
+        height:40px;
+        width:100px;
+        background-color: #E23744;
+        border-radius: 20px;
+        padding-top: 20px;
+        box-shadow: 5px 5px 10px #555;
+        transition:1s;
+    }
+    
+    .project1:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    
+    }
+    .project1 img{
+        height:20px;
+        width:100px;
+    
+    }
+}
+
+.project2{
+    height:150px;
+    width:300px;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 10px #555;
+    transition:1s;
+    margin-left: 40px;
+    background-color: white;
+}
+.project2:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+.project2 img{
+    height: 100%;
+    width: 100%;
+    
+    
+    
+
+}
+@media (min-width:350px) and (max-width:1100px){
+    .project2{
+        height:40px;
+        width:100px;
+        border-radius: 20px;
+        padding-top: 20px;
+        box-shadow: 5px 5px 10px #555;
+        transition:1s;
+        margin-left: 20px;
+        background-color: white;
+    }
+    .project2:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    
+    }
+    .project2 img{
+        height: 100%;
+        width: 100%;
+        
+        
+        
+    
+    }
+}

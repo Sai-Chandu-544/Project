@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+  display: flex;
+  justify-content: center;
+}
+.container{
+    height:98vh;
+    width:100vw;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px 0px;
+    display: flex;
+    justify-content: center;
+    background: url("Home page3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#heading{
+  position: absolute;
+  top:80px;
+  font-size: 30px;
+  font-family: Quicksand;
+  font-weight: 800;
+  color:#DC143C;
+
+  
+}
+ 
+.input_container{
+  position: absolute;
+  top: 200px;
+  display:flex;
+  justify-content: center;
+} 
+.input_bar{
+  width:250px;
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding-left: 20px;
+}
+button{
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+  background-color:#DC143C;
+} 
+.Bottom_container1{
+  height: 50px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 450px;
+  
+ 
+}   
+.inner_container1{
+  height: 30px;
+  width: 200px;
+  display: flex;
+  
+  margin-right: 100px;
+  
+ 
+
+}
+#para1{
+ font-size: 30px;
+ font-family: Rubik;
+ margin-top: 0px;
+ margin-left: 8px;
+ color: #DC143C; 
+ font-weight: 600;
+ 
+}
+.inner_container2{
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  
+  margin-left: 50px;
+}
+#para2{
+  font-size: 30px;
+  font-family: Rubik;
+  margin-left: 8px;
+  margin-top: 0px;
+  color: #DC143C; 
+  font-weight: 600;
+  
+  
+ }
+ .logo{
+  height:40px;
+ }
+ .Bottom_container2{
+  height: 30px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom:0px;
+ 
+  
+  
+}
+.inner_container3{
+  height: 30px;
+  width: 150px;
+  display: flex; 
+  justify-content: right;
+ 
+
+  
+}   
+#para3{
+  font-size: 28px;
+  font-family: Quicksand;
+  margin-top: 0px;
+  color: #DC143C; 
+  font-weight: 900;
+  
+  
+  
+ }
+.inner_container4{
+  height: 30px;
+  width: 180px;
+  display: flex; 
+  justify-content: right;
+ 
+  margin-left: 220px;
+  
+ 
+  
+}
+ 
+
+ #para4{
+  font-size: 28px;
+  font-family: Quicksand;
+  margin-top: 0px;
+  color: #DC143C; 
+  font-weight: 900;
+  margin-left: 50px;
+ 
+  
+  
+ }
+ .middle_container{
+  height: 120px;
+  width: 500px;
+  position: absolute;
+  top: 320px;
+
+  
+ 
+}   
+#middle_para1{
+  height: 25px;
+  font-size: 40px;
+  font-family: Rubik;
+  text-align: center;
+  color: #00004d;
+  font-weight: 500;
+ 
+}
+#middle_para2{
+  position: relative;
+  bottom: 15px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Rubik;
+  color: #00004d;
+  font-weight: 500;
+  
+}
+
+@media (min-width:350px) and (max-width:1100px){
+  body{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+      height:100vh;
+      width:100vw;
+      border: 2px solid black;
+      border-radius: 25px;
+      box-shadow: 0px 10px 10px 0px;
+      display: flex;
+      justify-content: center;
+      background: url("Mini Home page3.jpg");
+      background-size: cover;
+      background-position: center;
+  }
+  
+  
+  #heading{
+    position: absolute;
+    top:80px;
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 800;
+    color:#DC143C;
+  
+    
+  }
+   
+  .input_container{
+    position: absolute;
+    top: 200px;
+    display:flex;
+    justify-content: center;
+    padding-left: 50px;
+  } 
+  .input_bar{
+    width:150px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding-left: 20px;
+  }
+  button{
+    border-radius: 10px;
+    height: 25px;
+    width: 55px;
+    background-color:#DC143C;
+  } 
+  .Bottom_container1{
+    height: 25px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    
+   
+   
+  }   
+  .inner_container1{
+    height: 25px;
+    width: 150px;
+    display: flex;
+    
+    margin-right: 5px;
+    
+   
+  
+  }
+  #para1{
+   font-size: 15px;
+   font-family: Rubik;
+   margin-top: 0px;
+   margin-left: 8px;
+   color: #DC143C; 
+   font-weight: 600;
+   
+  }
+  .inner_container2{
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 5px;
+  }
+  #para2{
+    font-size: 15px;
+    font-family: Rubik;
+    margin-left: 8px;
+    margin-top: 0px;
+    color: #DC143C; 
+    font-weight: 600;
+    
+    
+   }
+   .logo{
+    height:20px;
+   }
+   .Bottom_container2{
+    height: 25px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom:40px;
+   
+    
+    
+  }
+  .inner_container3{
+    height: 20px;
+    width: 180px;
+    display: flex; 
+    justify-content: right;
+    margin-left: 110px;
+    
+   
+    
+  }   
+  #para3{
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-top: 0px;
+    color: #DC143C; 
+    font-weight: 900;
+   
+    
+    
+    
+   }
+  .inner_container4{
+    height: 25px;
+    width: 200px;
+    display: flex; 
+    justify-content: center;
+    margin-left: 80px;
+    padding-right: 20px;
+    
+    
+   
+    
+  }
+   
+  
+   #para4{
+    font-size: 15px;
+    font-family: Quicksand;
+    margin-top: 0px;
+    color: #DC143C; 
+    font-weight: 900;
+    margin-left: 50px;
+    
+   
+    
+    
+   }
+   .middle_container{
+    height: 120px;
+    width: 500px;
+    position: absolute;
+    top: 320px;
+  
+    
+   
+  }   
+  #middle_para1{
+    height: 25px;
+    font-size: 30px;
+    font-family: Rubik;
+    text-align: center;
+    color: #00004d;
+    font-weight: 500;
+   
+  }
+  #middle_para2{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Rubik;
+    color: #00004d;
+    font-weight: 500;
+    
+  }
+  
+  
+  
+  
+ 
+}
+
