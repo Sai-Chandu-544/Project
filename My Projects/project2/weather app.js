@@ -7,7 +7,7 @@ let para4=document.querySelector("#para4");
 let middle_para1=document.querySelector("#middle_para1");
 let middle_para2=document.querySelector("#middle_para2");
 
-let url="http://api.weatherapi.com/v1/current.json?key=94b645eb3dc84cd99df70844240111&q=";
+let url="https://api.weatherapi.com/v1/current.json?key=94b645eb3dc84cd99df70844240111&q=";
 
 
 
