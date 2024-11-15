@@ -143,6 +143,7 @@ a:after{
     height: 80vh;
     width: 70vw;
     padding-top: 200px;
+    padding-left:50px;
 }
 .title1{
     height: 80px;
@@ -174,7 +175,7 @@ a:after{
     0%
     {width:0}
     100%{
-        width:45%;
+        width:40%;
     }
 }
 .title2{
