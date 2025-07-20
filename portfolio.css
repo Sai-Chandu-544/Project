@@ -9,18 +9,14 @@
     font-family: Okra;
 }
 .section1{
-    min-height: 14vh;
-    max-height: 15vh;
-    min-width: 100vw;
+   height: 14vh;
     max-width:100vw;
  
 
 }
 .navbar{
     position:fixed;
-    min-height: 6.2rem;
-    max-height: 6.2rem;
-    max-width:100vw;
+    height: 6.2rem;
     min-width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -43,7 +39,7 @@
 .navbar_items{
     padding-right: 100px;
     font-family: Okra, Helvetica, sans-serif;
-    margin-top: 30px;
+    margin-top: 40px;
 
  }
 .navbar a{
@@ -321,24 +317,23 @@ img{
     }
 
     .profissional_summary H3{
-        margin-top: 120px;
+        margin-top: 150px;
         margin-left: 20px;
-        min-height: 100px;
-        min-width: 250px;
-    
+       height: 100px;
+        width: 250px;
         font-size: 0.65rem;
         line-height: 15px;
         padding-right: 50px;
     
     }
     .profissional_summary button {
-  height: 25px;  
-  margin-right: 50px;
-    
-  margin-top: 50px;
+  height: 35px;  
+ 
+  margin-right: 60px;  
+  margin-top: 100px;
   background-color: #22D3EE; 
   
-  font-size: 10px;
+ 
  
   
 }
@@ -347,6 +342,8 @@ img{
  
   height: 100%; 
   width: 100%;
+   font-size: 10px;
+   display: block;
 
  
 }
@@ -465,12 +462,12 @@ H1{
         font-size: 1rem;
     }
     .Contact_me .input{
-    margin-left: 10px;
+    margin-left: 15px;
     
 }
 .Contact_me input{
     width:8rem;
-    height: 15px;
+    height: 20px;
     border-radius: 5px;
     font-size: 0.6rem;
 }
@@ -481,7 +478,7 @@ H1{
 
 }
 .comment{
-    margin-right: 30px;
+    margin-right: 25px;
 }
     button{
         margin-left: 20px;
@@ -594,8 +591,8 @@ H1{
        
     }
     .social_media{
-       max-height:60vh;
-        max-width:90%;
+       height:60vh;
+       width:90%;
         margin: 120px auto;
         box-shadow: 5px 5px 10px #555;
       
@@ -606,7 +603,7 @@ H1{
    .platforms {
   display: grid;
  grid-template-columns: 1fr 1fr;
- row-gap: 20px;
+ row-gap: 40px;
  
 }
 
