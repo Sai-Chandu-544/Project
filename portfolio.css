@@ -91,7 +91,7 @@ a:after{
 }
     
     .logo p{
-          font-size: 0.8rem;
+          font-size: 1rem;
            margin-left: 10px;
           margin-top: 30px;
        
@@ -343,12 +343,14 @@ img{
         font-size: 0.65rem;
         line-height: 15px;
         padding-right: 50px;
+        font-weight: 600;
     
     }
     .btn {
   height: 20px;
   width: 80px;
   margin-top: 150px;
+  margin-right: 20px;
 }
 
 .button-link {
@@ -476,11 +478,15 @@ H1{
     }
     .Contact_me h1{
         font-size: 1.2rem;
+        padding-bottom: 65px;
     }
     .Contact_me .input{
-    margin-left: 15px;
+    margin-left: 12px;
     
     
+}
+.Contact_me #phone_para{
+    margin-right: 5px;
 }
 .Contact_me input{
     width:8rem;
@@ -490,7 +496,7 @@ H1{
     
 }
 .Contact_me textarea{
-     width:8rem;
+     width:8.2rem;
      font-size: 0.6rem;
      border-radius: 5px;
 
@@ -621,14 +627,15 @@ H1{
    .platforms {
   display: grid;
  grid-template-columns: 1fr 1fr;
- row-gap: 40px;
+ row-gap: 50px;
  
 }
 
     .social_media a{
-        
-        max-height:50px;
-        max-width:50px;
+        margin-top: 20px;
+        margin-right: 20px;
+        max-height:60px;
+        max-width:60px;
         text-decoration: none;
         box-sizing: border-box;
         display: flex;
@@ -641,29 +648,28 @@ H1{
     
     }
    .fa-linkedin{
-   font-size: 45px;
+    font-size: 55px;
    padding-right: 10px;
    
   
 }
 .fa-linkedin:hover{
-   font-size: 45px;
-   
+    font-size: 55px;
     
  
  }
 .fa-github{
-    font-size: 45px;
+ font-size: 55px;
     padding-right: 4px;
    
    
 }
 .fa-github:hover{
-     font-size: 45px;
+    font-size: 55px;
     
 }
 .fa-instagram{
-     font-size: 45px;
+      font-size: 55px;
      padding-right: 10px;
      border-radius: 10px;
    
@@ -671,18 +677,16 @@ H1{
                                                              
 }
 .fa-instagram:hover{
-     font-size: 45px;
-   
+      font-size: 55px;
 
 }
 .fa-x-twitter{
-     font-size: 45px;
+    font-size: 55px;
     
    
 }
 .fa-x-twitter:hover{
-     font-size: 45px;
-   
+    font-size: 55px;
 }
 }
 /* Javascript CSS */
