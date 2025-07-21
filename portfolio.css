@@ -146,7 +146,7 @@ a:after{
     min-width: 85vw;
     max-width: 85vw;
     padding-top: 200px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .title1{
     height: 80px;
@@ -282,24 +282,26 @@ img{
         height: 10vh;
         width: 80%;
         padding-top: 10rem;
+       
     }
     .title1{
-        width: 12rem;
+        width: 15rem;
    
-        height: 1.4rem;
-        margin-right: 20px;
+        height: 1.8rem;
+        margin-right: 100px;
        
       
       
     }
     .title1 p{
 
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+        
               
     }
     
 .title1 h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border-right: 2px solid #22D3EE;
      white-space: nowrap;
     overflow: hidden;
@@ -328,22 +330,22 @@ img{
     }
     
     .title2 H1{
-        font-size: 0.8rem;
-        padding-top: 15px;
+        font-size: 1rem;
+        padding-top: 20px;
         margin-right: 20px;
        
      
     }
 
     .profissional_summary H3{
-        margin-top: 50px;
+        margin-top: 80px;
         margin-left: 50px;
        height: 100px;
         width: 250px;
-        font-size: 0.65rem;
+        font-size: 0.8rem;
         line-height: 15px;
-        padding-right: 50px;
         font-weight: 600;
+        margin-right: 20px;
     
     }
     .btn {
@@ -478,9 +480,10 @@ H1{
     }
     .Contact_me h1{
         font-size: 1.2rem;
-        padding-bottom: 65px;
+        padding-bottom: 80px;
     }
     .Contact_me .input{
+        margin-top: 5px;
     margin-left: 12px;
     
     
@@ -496,7 +499,7 @@ H1{
     
 }
 .Contact_me textarea{
-     width:8.2rem;
+     width:8rem;
      font-size: 0.6rem;
      border-radius: 5px;
 
@@ -506,8 +509,8 @@ H1{
 }
     button{
         margin-left: 20px;
-        max-height: 20px;
-        max-width: 50px;
+        max-height: 25px;
+        max-width: 80px;
     }
     #name_para{
     font-weight: 800;
