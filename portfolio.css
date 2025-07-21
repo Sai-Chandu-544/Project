@@ -7,7 +7,9 @@
     padding:0px;
     box-sizing: border-box;
     font-family: Okra;
-    -webkit-tap-highlight-color: transparent;
+     
+  -webkit-tap-highlight-color: transparent;
+
 }
 .section1{
    height: 14vh;
@@ -15,14 +17,15 @@
  
 
 }
+
 .navbar{
     position:fixed;
-    height: 6.2rem;
-    min-width: 100vw;
+   height:14vh;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     background-color: #111827;  
-    box-shadow: 5px 5px 8px #111827;
+    box-shadow: 5px 5px 8px #0E7490;
     z-index: 1;
 }
 .logo p{
@@ -73,13 +76,16 @@ a:after{
 }
 
 @media (min-width:350px) and (max-width:1200px){
+   
+
     .body{
         font-size:10px;
     }
    .navbar{
    
-    height: 5.3rem;
+    height: 14vh;
     width:100vw;
+    box-shadow: 2px 2px 4px #0E7490;
    
    
 }
@@ -91,8 +97,8 @@ a:after{
        
     }
     .navbar_items{
-    padding-right: 2px;
-    margin-top: 28px;
+    padding-right: 5px;
+    margin-top: 30px;
 
  }
     .navbar a{
@@ -210,31 +216,43 @@ a:after{
     align-items: center;
     
 }
-.profissional_summary button {
-  height: 30px;  
-  width: 100px;
-  padding-top: 5px;   
-  padding-bottom: 10px;     
-  margin-top: 50px;
-  background-color: #22D3EE; 
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .btn {
+
+background-color: #22D3EE;
+border-radius: 5px;
+  height: 25px;
+  width: 120px;
+  margin-top: 100px;
+  transition: background-color 0.3s ease;
  
-  cursor: pointer;
+ 
+  
+ 
 }
 
-.profissional_summary button a {
+.button-link {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+ 
+  font-size: 1rem;
+  color: black;
   text-decoration: none;
-   color: black;
-  display: block;
-  height: 100%; 
-  text-align: center;
- 
+  border-radius: 5px;
 }
 
-button:hover{
-   background-color: #0E7490;
+
+
+.btn:hover {
+  background-color: #0E7490;
 }
 /* .second_part{
     height:80vh;
@@ -311,14 +329,14 @@ img{
     
     .title2 H1{
         font-size: 0.8rem;
-        padding-top: 10px;
+        padding-top: 15px;
         margin-right: 20px;
        
      
     }
 
     .profissional_summary H3{
-        margin-top: 150px;
+        margin-top: 50px;
         margin-left: 50px;
        height: 100px;
         width: 250px;
@@ -327,28 +345,24 @@ img{
         padding-right: 50px;
     
     }
-    .profissional_summary button {
-  height: 35px;  
- 
-  margin-right: 60px;  
-  margin-top: 100px;
-  background-color: #22D3EE; 
-  
- 
- 
-  
+    .btn {
+  height: 20px;
+  width: 80px;
+  margin-top: 150px;
 }
 
-.profissional_summary button a {
- 
-  height: 100%; 
+.button-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   width: 100%;
-   font-size: 10px;
-   display: block;
-
- 
+  background-color: #22D3EE;
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
 }
-
 
 
 
@@ -458,12 +472,14 @@ H1{
         margin: 100px auto;
        
        
+       
     }
     .Contact_me h1{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .Contact_me .input{
     margin-left: 15px;
+    
     
 }
 .Contact_me input{
@@ -471,6 +487,7 @@ H1{
     height: 20px;
     border-radius: 5px;
     font-size: 0.6rem;
+    
 }
 .Contact_me textarea{
      width:8rem;
@@ -479,7 +496,7 @@ H1{
 
 }
 .comment{
-    margin-right: 25px;
+    margin-right: 30px;
 }
     button{
         margin-left: 20px;
@@ -488,19 +505,19 @@ H1{
     }
     #name_para{
     font-weight: 800;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 } 
 #email_para{
     font-weight: 800;
-    font-size: 0.6rem;
+     font-size: 0.8rem;
 } 
 #phone_para{
     font-weight: 800;
-    font-size: 0.6rem;
+      font-size: 0.8rem;
 } 
 #textarea_para{
     font-weight: 800;
-   font-size: 0.6rem;
+ font-size: 0.8rem;
 } 
 
 }
@@ -637,7 +654,7 @@ H1{
  }
 .fa-github{
     font-size: 45px;
-    padding-right: 2px;
+    padding-right: 4px;
    
    
 }
