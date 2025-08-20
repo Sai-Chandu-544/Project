@@ -219,7 +219,7 @@
         height: 40px;
         width: 100px;
         background-color: #E23744;
-        border-radius: 20px;
+        border-radius: 10px;
         padding-top: 20px;
         box-shadow: 5px 5px 10px #555;
         transition: 1s;
@@ -232,15 +232,15 @@
     }
 
     .project1 img {
-        height: 20px;
-        width: 100px;
+        height: 50%;
+        width: 100%;
 
     }
 
 
     .container1 {
 
-        height: 250px;
+        height: 300px;
         width: 80vw;
         box-shadow: 8px 8px 12px #555;
         border-radius: 20px;
@@ -258,6 +258,8 @@
         grid-template-columns: 1fr 1fr;
         height: 150px;
         width: 65vw;
+        row-gap: 1rem;
+        column-gap: 1rem;
 
 
 
@@ -354,7 +356,7 @@
     .project2 {
         height: 40px;
         width: 100px;
-        border-radius: 20px;
+        border-radius: 10px;
         padding-top: 20px;
         box-shadow: 5px 5px 10px #555;
         transition: 1s;
