@@ -279,17 +279,17 @@ img{
     
     
     }
-    .first_part{
+   .first_part{
         height: 10vh;
         width: 80%;
         padding-top: 10rem;
+        margin: 0 auto;
        
     }
     .title1{
         width: 15rem;
-   
         height: 1.8rem;
-        margin-right: 100px;
+        margin-right: 110px;
        
       
       
@@ -778,4 +778,5 @@ textarea{
 /* .radio{
     margin-right: 10px;
 } */
+
 
