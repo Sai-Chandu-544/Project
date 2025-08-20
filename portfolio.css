@@ -205,7 +205,7 @@ a:after{
    font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     color:white;
-     margin-left: 10rem;
+    margin-left: 10rem;
     
 
 }
@@ -276,10 +276,11 @@ img{
     .section2{
         max-height: 100vh;
         width:100%;
+        
     
     
     }
-   .first_part{
+    .first_part{
         height: 10vh;
         width: 80%;
         padding-top: 10rem;
@@ -304,7 +305,7 @@ img{
 .title1 h2 {
     font-size: 1.5rem;
     border-right: 2px solid #22D3EE;
-     white-space: nowrap;
+    white-space: nowrap;
     overflow: hidden;
     animation: typing 5s steps(20),cursor.9s step-end infinite;
    
@@ -340,8 +341,8 @@ img{
 
     .profissional_summary H3{
         margin-top: 80px;
-        margin-left: 50px;
-       height: 100px;
+        margin-left: 20px;
+        height: 100px;
         width: 250px;
         font-size: 0.8rem;
         line-height: 15px;
@@ -778,5 +779,3 @@ textarea{
 /* .radio{
     margin-right: 10px;
 } */
-
-
