@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
     -webkit-tap-highlight-color: transparent;
 }
@@ -17,6 +19,7 @@
     color: #22D3EE;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -30,6 +33,11 @@
 
 
 
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .project1 {
@@ -55,7 +63,7 @@
 }
 
 .container1 {
-     margin: 50px auto;
+    margin: 50px auto;
     height: 350px;
     width: 80vw;
     background-color: #1F2937;
@@ -76,11 +84,28 @@
 
 
 }
+
 .container1 H1 {
     color: #22D3EE;
     text-align: center;
     text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+.container p {
+    color: #22D3EE;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.container1 p {
+    color: #22D3EE;
+    text-align: center;
+    text-decoration: none
 }
 
 .full-stack-project1 {
@@ -170,10 +195,11 @@
         border-radius: 20px;
     }
 
-    .container H1 {
-        color: #22D3EE;
-        text-align: center;
-        text-decoration: underline;
+
+    .container p {
+       
+        font-size: 0.6rem;
+
 
     }
 
@@ -211,39 +237,41 @@
 
     }
 
-    
+
     .container1 {
-      
+
         height: 250px;
         width: 80vw;
-        box-shadow: 8px 8px 12px #555;   
+        box-shadow: 8px 8px 12px #555;
         border-radius: 20px;
     }
+
     .container1 H1 {
         color: #22D3EE;
         text-align: center;
         text-decoration: underline;
 
     }
+
     .sub_container2 {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         height: 150px;
         width: 65vw;
-      
-       
-     
+
+
+
 
     }
 
     .full-stack-project1 {
-        height: 40px;
+        height: 60px;
         width: 100px;
         border-radius: 8px;
         box-shadow: 2px 2px 5px #555;
         transition: 1s;
         cursor: pointer;
-         margin: 0 auto;
+        margin: 0 auto;
 
     }
 
@@ -256,14 +284,14 @@
 
     .full-stack-project2 {
         margin: 0 auto;
-        height: 40px;
+        height: 60px;
         width: 100px;
         border-radius: 8px;
         box-shadow: 2px 2px 5px #555;
         transition: 1s;
         cursor: pointer;
-         margin: 0 auto;
-    
+        margin: 0 auto;
+
 
     }
 
@@ -275,7 +303,7 @@
     }
 
     .full-stack-project3 {
-        height: 40px;
+         height: 60px;
         width: 100px;
         border-radius: 8px;
         box-shadow: 2px 2px 5px #555;
@@ -283,7 +311,7 @@
         cursor: pointer;
         margin: 0 auto;
 
-        
+
 
     }
 
